@@ -1,0 +1,11 @@
+{
+  "name": "orion-web",
+  "version": "1.0.0",
+  "description": "Orion Web company website",
+  "scripts": {
+    "dev": "serve . -l 3000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
