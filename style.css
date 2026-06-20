@@ -280,11 +280,29 @@ p {
     color: var(--text);
 }
 
-.logo-text {
+.logo-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.95;
+    margin-left: -2px;
+}
+
+.logo-text-orion {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+
+.logo-text-web {
     font-family: var(--font-heading);
     font-size: 1.1rem;
-    font-weight: 700;
+    font-weight: 600;
+    color: var(--secondary);
     letter-spacing: 0.05em;
+    padding-left: 2px;
 }
 
 .logo-icon {
